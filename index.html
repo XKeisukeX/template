@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Particles Web</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="http://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <div data-aos="fade-down" data-aos-delay="500" data-aos-duration="900" class="logo"><img class="logo" src="Screenshot_20230429-174305_1-removebg-preview_3.png" alt=""></div>
+            <ul data-aos="fade-down" data-aos-delay="500" data-aos-duration="900">
+                <li>Home</li>
+                <li>Projects</li>
+                <li>About</li>
+                <li>Contacts</li>
+            </ul>
+        </div>
+        <div id="particles"></div>
+        <div data-aos="fade-down-left"  data-aos-delay="500" data-aos-duration="900" class="image"><img src="Keisuke-removebg-preview.png" alt=""></div>
+        <div class="hero-title">
+          <p data-aos="fade-down-right"  data-aos-delay="500" data-aos-duration="900" class="line">Hello, I'm</p>
+          <h2 data-aos="fade-left" data-aos-delay="500" data-aos-duration="900">John Mark <span class="multitext"></span></h2>
+          <div  data-aos="fade-right" data-aos-delay="700" data-aos-duration="900" class="details">
+            Hi there! "Enhance your online presence with our top-notch front-end development services. Our team of experts specializes in creating user-friendly and visually appealing websites using the latest technologies and design trends.
+          </div>
+          <button data-aos="fade-up" data-aos-delay="500" data-aos-duration="900" class="shadow__btn">
+            HIRE ME
+        </button>
+        <div class="wrapper">
+          <div class="icon facebook">
+            <div  class="tooltip">
+              Facebook
+            </div>
+            <span><i class="fa fa-facebook"></i></span>
+          </div>
+          <div  class="icon twitter">
+            <div  class="tooltip">
+              Twitter
+            </div>
+            <span><i  class="fa fa-twitter"></i></span>
+          </div>
+          <div  class="icon youtube">
+            <div  class="tooltip">
+              Youtube
+            </div>
+            <span><i  class="fa fa-youtube"></i></span>
+          </div>
+          <div  class="icon github">
+            <div  class="tooltip">
+              Github
+            </div>
+            <span><i  class="fa fa-github"></i></span>
+          </div>
+          <div class="icon instagram">
+            <div class="tooltip">
+              Instagram
+            </div>
+            <span><i class="fa fa-instagram"></i></span>
+          </div>
+        </div>
+        <div class="produce">
+          <h6>@copyright by JohnMark</h6>
+        </div>
+        </div>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+   
+    <script>
+        particlesJS("particles", {
+    "particles": {
+    "number": {
+      "value": 80,
+      "density": {
+        "enable": true,
+        "value_area": 800
+      }
+    },
+    "color": {
+      "value": "#ffffff"
+    },
+    "shape": {
+      "type": "circle",
+      "stroke": {
+        "width": 0,
+        "color": "#000000"
+      },
+      "polygon": {
+        "nb_sides": 5
+      },
+      "image": {
+        "src": "img/github.svg",
+        "width": 100,
+        "height": 100
+      }
+    },
+    "opacity": {
+      "value": 0.5,
+      "random": false,
+      "anim": {
+        "enable": false,
+        "speed": 1,
+        "opacity_min": 0.1,
+        "sync": false
+      }
+    },
+    "size": {
+      "value": 5,
+      "random": true,
+      "anim": {
+        "enable": false,
+        "speed": 40,
+        "size_min": 0.1,
+        "sync": false
+      }
+    },
+    "line_linked": {
+      "enable": true,
+      "distance": 150,
+      "color": "#ffffff",
+      "opacity": 0.4,
+      "width": 1
+    },
+    "move": {
+      "enable": true,
+      "speed": 6,
+      "direction": "none",
+      "random": false,
+      "straight": false,
+      "out_mode": "out",
+      "attract": {
+        "enable": false,
+        "rotateX": 600,
+        "rotateY": 1200
+      }
+    }
+    },
+    "interactivity": {
+    "detect_on": "canvas",
+    "events": {
+      "onhover": {
+        "enable": true,
+        "mode": "repulse"
+      },
+      "onclick": {
+        "enable": true,
+        "mode": "push"
+      },
+      "resize": true
+    },
+    "modes": {
+      "grab": {
+        "distance": 400,
+        "line_linked": {
+          "opacity": 1
+        }
+      },
+      "bubble": {
+        "distance": 400,
+        "size": 40,
+        "duration": 2,
+        "opacity": 8,
+        "speed": 3
+      },
+      "repulse": {
+        "distance": 200
+      },
+      "push": {
+        "particles_nb": 4
+      },
+      "remove": {
+        "particles_nb": 2
+      }
+    }
+    },
+    "retina_detect": true,
+    "config_demo": {
+    "hide_card": false,
+    "background_color": "#b61924",
+    "background_image": "",
+    "background_position": "50% 50%",
+    "background_repeat": "no-repeat",
+    "background_size": "cover"
+  }
+})
+
+var typingEffect = new Typed(".multitext",{
+            strings : ["DEPACLAYON"],
+            loop : true,
+            typeSpeed : 90,
+            backSpeed : 90,
+            backDelay : 10
+        });
+
+AOS.init();
+    </script>
+</body>
+</html>
